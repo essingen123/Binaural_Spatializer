@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="rO9Qhh" name="Binauralspat" displaySplashScreen="1" reportAppUsage="1"
+              splashScreenColour="Dark" projectType="audioplug" version="1.0.0"
+              bundleIdentifier="com.yourcompany.Binauralspat" includeBinaryInAppConfig="1"
+              cppLanguageStandard="14" companyCopyright="" buildVST="1" buildVST3="0"
+              buildAU="1" buildAUv3="0" buildRTAS="0" buildAAX="0" buildStandalone="1"
+              enableIAA="0" pluginName="Binauralspat" pluginDesc="Binauralspat"
+              pluginManufacturer="yourcompany" pluginManufacturerCode="Manu"
+              pluginCode="Ro9q" pluginChannelConfigs="" pluginIsSynth="0" pluginWantsMidiIn="0"
+              pluginProducesMidiOut="0" pluginIsMidiEffectPlugin="0" pluginEditorRequiresKeys="0"
+              pluginAUExportPrefix="BinauralspatAU" aaxIdentifier="com.yourcompany.Binauralspat"
+              pluginAAXCategory="2" jucerVersion="5.3.1" pluginFormats="buildVST,buildAU,buildStandalone">
+  <MAINGROUP id="Rs5gix" name="Binauralspat">
+    <GROUP id="{24E45484-4E5E-7069-7542-53DEC6F76F30}" name="Source">
+      <FILE id="fWeVzy" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="v4z9Ph" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="yEImbz" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="u0BqAc" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" enablePluginBinaryCopyStep="1" isDebug="1" optimisation="1"
+                       linkTimeOptimisation="0" targetName="Binaural_spat"/>
+        <CONFIGURATION name="Release" enablePluginBinaryCopyStep="1" isDebug="0" optimisation="3"
+                       linkTimeOptimisation="1" targetName="Binaural_spat"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../JUCE5/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE5/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE5/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE5/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE5/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE5/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../JUCE5/modules"/>
+        <MODULEPATH id="juce_video" path="../JUCE5/modules"/>
+        <MODULEPATH id="juce_opengl" path="../JUCE5/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE5/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE5/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE5/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE5/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../JUCE5/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../JUCE5/modules"/>
+        <MODULEPATH id="juce_dsp" path="../JUCE5/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+</JUCERPROJECT>
