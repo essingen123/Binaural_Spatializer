@@ -4,7 +4,7 @@ The binaural spatializer is a VST plugin for 3D sound spatialization. This plugi
 
 ## Demo
 
-[![Binaural Spatializer](screenshot.jpg)](https://www.youtube.com/watch?v=iSpzV2M7QQc)
+[![Binaural Spatializer](screenshot.png)](https://www.youtube.com/watch?v=iSpzV2M7QQc)
 
 
 ## Contributors
