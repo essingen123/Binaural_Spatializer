@@ -3,14 +3,14 @@
 <JUCERPROJECT id="rO9Qhh" name="Binauralspat" displaySplashScreen="1" reportAppUsage="1"
               splashScreenColour="Dark" projectType="audioplug" version="1.0.0"
               bundleIdentifier="com.yourcompany.Binauralspat" includeBinaryInAppConfig="1"
-              cppLanguageStandard="14" companyCopyright="" buildVST="1" buildVST3="0"
+              cppLanguageStandard="14" companyCopyright="" buildVST="1" buildVST3="1"
               buildAU="1" buildAUv3="0" buildRTAS="0" buildAAX="0" buildStandalone="1"
               enableIAA="0" pluginName="Binauralspat" pluginDesc="Binauralspat"
               pluginManufacturer="yourcompany" pluginManufacturerCode="Manu"
               pluginCode="Ro9q" pluginChannelConfigs="" pluginIsSynth="0" pluginWantsMidiIn="0"
               pluginProducesMidiOut="0" pluginIsMidiEffectPlugin="0" pluginEditorRequiresKeys="0"
               pluginAUExportPrefix="BinauralspatAU" aaxIdentifier="com.yourcompany.Binauralspat"
-              pluginAAXCategory="2" jucerVersion="5.3.1" pluginFormats="buildVST,buildAU,buildStandalone">
+              pluginAAXCategory="2" jucerVersion="5.3.1" pluginFormats="buildAU,buildStandalone,buildVST,buildVST3">
   <MAINGROUP id="Rs5gix" name="Binauralspat">
     <GROUP id="{24E45484-4E5E-7069-7542-53DEC6F76F30}" name="Source">
       <FILE id="fWeVzy" name="PluginProcessor.cpp" compile="1" resource="0"
@@ -23,7 +23,7 @@
     </GROUP>
   </MAINGROUP>
   <EXPORTFORMATS>
-    <XCODE_MAC targetFolder="Builds/MacOSX">
+    <XCODE_MAC targetFolder="Builds/MacOSX" vst3Folder="">
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" enablePluginBinaryCopyStep="1" isDebug="1" optimisation="1"
                        linkTimeOptimisation="0" targetName="Binaural_spat"/>

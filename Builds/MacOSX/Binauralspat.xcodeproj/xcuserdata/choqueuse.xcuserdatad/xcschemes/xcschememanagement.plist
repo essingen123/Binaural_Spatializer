@@ -7,7 +7,7 @@
 		<key>Binauralspat - AU.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Binauralspat - All.xcscheme</key>
 		<dict>
@@ -17,22 +17,32 @@
 		<key>Binauralspat - Shared Code.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>5</integer>
 		</dict>
 		<key>Binauralspat - Standalone Plugin.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>4</integer>
 		</dict>
 		<key>Binauralspat - VST.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>Binauralspat - VST3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>10C961FADBD135EF15235376</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2CF42B3EF9F0E36CF01BF56E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
